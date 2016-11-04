@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "GXNLoginViewController.h"
+#import "GXNRootNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -16,9 +18,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[GXNRootNavigationController alloc] initWithRootViewController:[GXNLoginViewController new]];
+    [self.window makeKeyAndVisible];
+    //设置网络请求的基本地址
+    YTKNetworkConfig * config = [YTKNetworkConfig sharedConfig];
+    config.baseUrl = baseURL;
     return YES;
 }
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

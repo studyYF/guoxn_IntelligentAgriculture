@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FE9E9FD1D41EBC4FA6F35B7 /* libPods-IntelligentAgriculture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD00C3482F6BBC37DCBC5A25 /* libPods-IntelligentAgriculture.a */; };
+		8066994A185919222BACBFC1 /* libPods-IntelligentAgricultureUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C65443D573733620EA6335 /* libPods-IntelligentAgricultureUITests.a */; };
+		B78DA6720FED29B12BA2AEEE /* libPods-IntelligentAgricultureTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC8E0685B92960DBB351CE9C /* libPods-IntelligentAgricultureTests.a */; };
 		B8401B021DCC551B00C2F7CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8401B011DCC551B00C2F7CF /* main.m */; };
 		B8401B051DCC551B00C2F7CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8401B041DCC551B00C2F7CF /* AppDelegate.m */; };
 		B8401B081DCC551B00C2F7CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8401B071DCC551B00C2F7CF /* ViewController.m */; };
@@ -15,6 +18,17 @@
 		B8401B101DCC551B00C2F7CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8401B0E1DCC551B00C2F7CF /* LaunchScreen.storyboard */; };
 		B8401B1B1DCC551B00C2F7CF /* IntelligentAgricultureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8401B1A1DCC551B00C2F7CF /* IntelligentAgricultureTests.m */; };
 		B8401B261DCC551B00C2F7CF /* IntelligentAgricultureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8401B251DCC551B00C2F7CF /* IntelligentAgricultureUITests.m */; };
+		B8401B4B1DCC5C0900C2F7CF /* GXNLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8401B491DCC5C0900C2F7CF /* GXNLoginViewController.m */; };
+		B8401B4C1DCC5C0900C2F7CF /* GXNLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8401B4A1DCC5C0900C2F7CF /* GXNLoginViewController.xib */; };
+		B8401B501DCC5EFA00C2F7CF /* GXNRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8401B4F1DCC5EFA00C2F7CF /* GXNRootNavigationController.m */; };
+		B8401B561DCC631400C2F7CF /* GXNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8401B551DCC631400C2F7CF /* GXNMainViewController.m */; };
+		B8401B5A1DCC668B00C2F7CF /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = B8401B591DCC668B00C2F7CF /* UIView+Size.m */; };
+		B8401B5E1DCC68D100C2F7CF /* GXNConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B8401B5D1DCC68D100C2F7CF /* GXNConst.m */; };
+		B8401B611DCC6B2200C2F7CF /* GXNToolbarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B8401B601DCC6B2200C2F7CF /* GXNToolbarButton.m */; };
+		B8401B641DCC77C300C2F7CF /* GXNDeviceControllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8401B631DCC77C300C2F7CF /* GXNDeviceControllViewController.m */; };
+		B8401B671DCC77D200C2F7CF /* GXNRealTimeDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8401B661DCC77D200C2F7CF /* GXNRealTimeDataViewController.m */; };
+		B8401B6A1DCC801300C2F7CF /* GXNLoginApi.m in Sources */ = {isa = PBXBuildFile; fileRef = B8401B691DCC801300C2F7CF /* GXNLoginApi.m */; };
+		B85AA1831DCC8678004F3707 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B85AA1821DCC8678004F3707 /* NSString+MD5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4329E4A979E3A8EE0BC65369 /* Pods-IntelligentAgricultureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelligentAgricultureTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntelligentAgricultureTests/Pods-IntelligentAgricultureTests.release.xcconfig"; sourceTree = "<group>"; };
+		8442A1D78A582EB6D672102B /* Pods-IntelligentAgricultureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelligentAgricultureUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntelligentAgricultureUITests/Pods-IntelligentAgricultureUITests.release.xcconfig"; sourceTree = "<group>"; };
+		88AD88A686F140C15BB670F1 /* Pods-IntelligentAgriculture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelligentAgriculture.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntelligentAgriculture/Pods-IntelligentAgriculture.release.xcconfig"; sourceTree = "<group>"; };
+		98C65443D573733620EA6335 /* libPods-IntelligentAgricultureUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IntelligentAgricultureUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2DC288C0E7984536EA6ADE /* Pods-IntelligentAgricultureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelligentAgricultureTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntelligentAgricultureTests/Pods-IntelligentAgricultureTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8401AFD1DCC551B00C2F7CF /* IntelligentAgriculture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntelligentAgriculture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8401B011DCC551B00C2F7CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8401B031DCC551B00C2F7CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +70,32 @@
 		B8401B211DCC551B00C2F7CF /* IntelligentAgricultureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelligentAgricultureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8401B251DCC551B00C2F7CF /* IntelligentAgricultureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntelligentAgricultureUITests.m; sourceTree = "<group>"; };
 		B8401B271DCC551B00C2F7CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8401B481DCC5C0900C2F7CF /* GXNLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXNLoginViewController.h; sourceTree = "<group>"; };
+		B8401B491DCC5C0900C2F7CF /* GXNLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXNLoginViewController.m; sourceTree = "<group>"; };
+		B8401B4A1DCC5C0900C2F7CF /* GXNLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GXNLoginViewController.xib; sourceTree = "<group>"; };
+		B8401B4E1DCC5EFA00C2F7CF /* GXNRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXNRootNavigationController.h; sourceTree = "<group>"; };
+		B8401B4F1DCC5EFA00C2F7CF /* GXNRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXNRootNavigationController.m; sourceTree = "<group>"; };
+		B8401B541DCC631400C2F7CF /* GXNMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXNMainViewController.h; sourceTree = "<group>"; };
+		B8401B551DCC631400C2F7CF /* GXNMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXNMainViewController.m; sourceTree = "<group>"; };
+		B8401B581DCC668B00C2F7CF /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		B8401B591DCC668B00C2F7CF /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+		B8401B5B1DCC66B800C2F7CF /* IntelligentAgriculture.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntelligentAgriculture.pch; sourceTree = "<group>"; };
+		B8401B5C1DCC68D100C2F7CF /* GXNConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXNConst.h; sourceTree = "<group>"; };
+		B8401B5D1DCC68D100C2F7CF /* GXNConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXNConst.m; sourceTree = "<group>"; };
+		B8401B5F1DCC6B2200C2F7CF /* GXNToolbarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXNToolbarButton.h; sourceTree = "<group>"; };
+		B8401B601DCC6B2200C2F7CF /* GXNToolbarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXNToolbarButton.m; sourceTree = "<group>"; };
+		B8401B621DCC77C300C2F7CF /* GXNDeviceControllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXNDeviceControllViewController.h; sourceTree = "<group>"; };
+		B8401B631DCC77C300C2F7CF /* GXNDeviceControllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXNDeviceControllViewController.m; sourceTree = "<group>"; };
+		B8401B651DCC77D200C2F7CF /* GXNRealTimeDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXNRealTimeDataViewController.h; sourceTree = "<group>"; };
+		B8401B661DCC77D200C2F7CF /* GXNRealTimeDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXNRealTimeDataViewController.m; sourceTree = "<group>"; };
+		B8401B681DCC801300C2F7CF /* GXNLoginApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXNLoginApi.h; sourceTree = "<group>"; };
+		B8401B691DCC801300C2F7CF /* GXNLoginApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXNLoginApi.m; sourceTree = "<group>"; };
+		B85AA1811DCC8678004F3707 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		B85AA1821DCC8678004F3707 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		BAC413D3FF04BF9FA37CE939 /* Pods-IntelligentAgricultureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelligentAgricultureUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntelligentAgricultureUITests/Pods-IntelligentAgricultureUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD00C3482F6BBC37DCBC5A25 /* libPods-IntelligentAgriculture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IntelligentAgriculture.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE12979D71DA20A23A2DD46 /* Pods-IntelligentAgriculture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntelligentAgriculture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntelligentAgriculture/Pods-IntelligentAgriculture.debug.xcconfig"; sourceTree = "<group>"; };
+		FC8E0685B92960DBB351CE9C /* libPods-IntelligentAgricultureTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IntelligentAgricultureTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE9E9FD1D41EBC4FA6F35B7 /* libPods-IntelligentAgriculture.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B78DA6720FED29B12BA2AEEE /* libPods-IntelligentAgricultureTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +119,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8066994A185919222BACBFC1 /* libPods-IntelligentAgricultureUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		888F1B949EDADAB03DBC9E4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD00C3482F6BBC37DCBC5A25 /* libPods-IntelligentAgriculture.a */,
+				FC8E0685B92960DBB351CE9C /* libPods-IntelligentAgricultureTests.a */,
+				98C65443D573733620EA6335 /* libPods-IntelligentAgricultureUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD6B9D7BF6A21A2A707805DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFE12979D71DA20A23A2DD46 /* Pods-IntelligentAgriculture.debug.xcconfig */,
+				88AD88A686F140C15BB670F1 /* Pods-IntelligentAgriculture.release.xcconfig */,
+				9E2DC288C0E7984536EA6ADE /* Pods-IntelligentAgricultureTests.debug.xcconfig */,
+				4329E4A979E3A8EE0BC65369 /* Pods-IntelligentAgricultureTests.release.xcconfig */,
+				BAC413D3FF04BF9FA37CE939 /* Pods-IntelligentAgricultureUITests.debug.xcconfig */,
+				8442A1D78A582EB6D672102B /* Pods-IntelligentAgricultureUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B8401AF41DCC551B00C2F7CF = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +156,8 @@
 				B8401B191DCC551B00C2F7CF /* IntelligentAgricultureTests */,
 				B8401B241DCC551B00C2F7CF /* IntelligentAgricultureUITests */,
 				B8401AFE1DCC551B00C2F7CF /* Products */,
+				AD6B9D7BF6A21A2A707805DB /* Pods */,
+				888F1B949EDADAB03DBC9E4A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +174,7 @@
 		B8401AFF1DCC551B00C2F7CF /* IntelligentAgriculture */ = {
 			isa = PBXGroup;
 			children = (
+				B8401B331DCC5BC100C2F7CF /* Classess */,
 				B8401B031DCC551B00C2F7CF /* AppDelegate.h */,
 				B8401B041DCC551B00C2F7CF /* AppDelegate.m */,
 				B8401B061DCC551B00C2F7CF /* ViewController.h */,
@@ -110,6 +184,7 @@
 				B8401B0E1DCC551B00C2F7CF /* LaunchScreen.storyboard */,
 				B8401B111DCC551B00C2F7CF /* Info.plist */,
 				B8401B001DCC551B00C2F7CF /* Supporting Files */,
+				B8401B5B1DCC66B800C2F7CF /* IntelligentAgriculture.pch */,
 			);
 			path = IntelligentAgriculture;
 			sourceTree = "<group>";
@@ -140,6 +215,210 @@
 			path = IntelligentAgricultureUITests;
 			sourceTree = "<group>";
 		};
+		B8401B331DCC5BC100C2F7CF /* Classess */ = {
+			isa = PBXGroup;
+			children = (
+				B8401B4D1DCC5EE200C2F7CF /* Main(主要) */,
+				B8401B341DCC5BC100C2F7CF /* DeviceControll(设备控制) */,
+				B8401B391DCC5BC100C2F7CF /* Login(登录) */,
+				B8401B3E1DCC5BC100C2F7CF /* RealTimeData(实时数据) */,
+				B8401B431DCC5BC100C2F7CF /* VideoSurveillance(视频监控) */,
+				B8401B571DCC65E000C2F7CF /* Other */,
+			);
+			path = Classess;
+			sourceTree = "<group>";
+		};
+		B8401B341DCC5BC100C2F7CF /* DeviceControll(设备控制) */ = {
+			isa = PBXGroup;
+			children = (
+				B8401B351DCC5BC100C2F7CF /* Api */,
+				B8401B361DCC5BC100C2F7CF /* Controller */,
+				B8401B371DCC5BC100C2F7CF /* Model */,
+				B8401B381DCC5BC100C2F7CF /* View */,
+			);
+			path = "DeviceControll(设备控制)";
+			sourceTree = "<group>";
+		};
+		B8401B351DCC5BC100C2F7CF /* Api */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		B8401B361DCC5BC100C2F7CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B8401B621DCC77C300C2F7CF /* GXNDeviceControllViewController.h */,
+				B8401B631DCC77C300C2F7CF /* GXNDeviceControllViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B8401B371DCC5BC100C2F7CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8401B381DCC5BC100C2F7CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B8401B391DCC5BC100C2F7CF /* Login(登录) */ = {
+			isa = PBXGroup;
+			children = (
+				B8401B3A1DCC5BC100C2F7CF /* Api */,
+				B8401B3B1DCC5BC100C2F7CF /* Controller */,
+				B8401B3C1DCC5BC100C2F7CF /* Model */,
+				B8401B3D1DCC5BC100C2F7CF /* View */,
+			);
+			path = "Login(登录)";
+			sourceTree = "<group>";
+		};
+		B8401B3A1DCC5BC100C2F7CF /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				B8401B681DCC801300C2F7CF /* GXNLoginApi.h */,
+				B8401B691DCC801300C2F7CF /* GXNLoginApi.m */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		B8401B3B1DCC5BC100C2F7CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B8401B481DCC5C0900C2F7CF /* GXNLoginViewController.h */,
+				B8401B491DCC5C0900C2F7CF /* GXNLoginViewController.m */,
+				B8401B4A1DCC5C0900C2F7CF /* GXNLoginViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B8401B3C1DCC5BC100C2F7CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8401B3D1DCC5BC100C2F7CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B8401B3E1DCC5BC100C2F7CF /* RealTimeData(实时数据) */ = {
+			isa = PBXGroup;
+			children = (
+				B8401B3F1DCC5BC100C2F7CF /* Api */,
+				B8401B401DCC5BC100C2F7CF /* Controller */,
+				B8401B411DCC5BC100C2F7CF /* Model */,
+				B8401B421DCC5BC100C2F7CF /* View */,
+			);
+			path = "RealTimeData(实时数据)";
+			sourceTree = "<group>";
+		};
+		B8401B3F1DCC5BC100C2F7CF /* Api */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		B8401B401DCC5BC100C2F7CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B8401B651DCC77D200C2F7CF /* GXNRealTimeDataViewController.h */,
+				B8401B661DCC77D200C2F7CF /* GXNRealTimeDataViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B8401B411DCC5BC100C2F7CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8401B421DCC5BC100C2F7CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B8401B431DCC5BC100C2F7CF /* VideoSurveillance(视频监控) */ = {
+			isa = PBXGroup;
+			children = (
+				B8401B441DCC5BC100C2F7CF /* Api */,
+				B8401B451DCC5BC100C2F7CF /* Controller */,
+				B8401B461DCC5BC100C2F7CF /* Model */,
+				B8401B471DCC5BC100C2F7CF /* View */,
+			);
+			path = "VideoSurveillance(视频监控)";
+			sourceTree = "<group>";
+		};
+		B8401B441DCC5BC100C2F7CF /* Api */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		B8401B451DCC5BC100C2F7CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B8401B461DCC5BC100C2F7CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8401B471DCC5BC100C2F7CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B8401B4D1DCC5EE200C2F7CF /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				B8401B4E1DCC5EFA00C2F7CF /* GXNRootNavigationController.h */,
+				B8401B4F1DCC5EFA00C2F7CF /* GXNRootNavigationController.m */,
+				B8401B541DCC631400C2F7CF /* GXNMainViewController.h */,
+				B8401B551DCC631400C2F7CF /* GXNMainViewController.m */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		B8401B571DCC65E000C2F7CF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				B85AA1811DCC8678004F3707 /* NSString+MD5.h */,
+				B85AA1821DCC8678004F3707 /* NSString+MD5.m */,
+				B8401B581DCC668B00C2F7CF /* UIView+Size.h */,
+				B8401B591DCC668B00C2F7CF /* UIView+Size.m */,
+				B8401B5C1DCC68D100C2F7CF /* GXNConst.h */,
+				B8401B5D1DCC68D100C2F7CF /* GXNConst.m */,
+				B8401B5F1DCC6B2200C2F7CF /* GXNToolbarButton.h */,
+				B8401B601DCC6B2200C2F7CF /* GXNToolbarButton.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +426,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8401B2A1DCC551B00C2F7CF /* Build configuration list for PBXNativeTarget "IntelligentAgriculture" */;
 			buildPhases = (
+				ACF8FC18A53ADB7D96BAA678 /* [CP] Check Pods Manifest.lock */,
 				B8401AF91DCC551B00C2F7CF /* Sources */,
 				B8401AFA1DCC551B00C2F7CF /* Frameworks */,
 				B8401AFB1DCC551B00C2F7CF /* Resources */,
+				C980EF8797D7A0F6F23AAB4A /* [CP] Embed Pods Frameworks */,
+				6DB7A1F3D7F992EF22001C08 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +446,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8401B2D1DCC551B00C2F7CF /* Build configuration list for PBXNativeTarget "IntelligentAgricultureTests" */;
 			buildPhases = (
+				8CBC41FE74FB209DA391541C /* [CP] Check Pods Manifest.lock */,
 				B8401B121DCC551B00C2F7CF /* Sources */,
 				B8401B131DCC551B00C2F7CF /* Frameworks */,
 				B8401B141DCC551B00C2F7CF /* Resources */,
+				A920950893C5537ECA4582BE /* [CP] Embed Pods Frameworks */,
+				651C22B3EF7551137E158D11 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +467,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8401B301DCC551B00C2F7CF /* Build configuration list for PBXNativeTarget "IntelligentAgricultureUITests" */;
 			buildPhases = (
+				80BB3F6D86CD0EDD934B4358 /* [CP] Check Pods Manifest.lock */,
 				B8401B1D1DCC551B00C2F7CF /* Sources */,
 				B8401B1E1DCC551B00C2F7CF /* Frameworks */,
 				B8401B1F1DCC551B00C2F7CF /* Resources */,
+				5EEA14F22655264BCE43C44F /* [CP] Embed Pods Frameworks */,
+				4CDD407D38A15C0310EA5FEC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +536,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8401B4C1DCC5C0900C2F7CF /* GXNLoginViewController.xib in Resources */,
 				B8401B101DCC551B00C2F7CF /* LaunchScreen.storyboard in Resources */,
 				B8401B0D1DCC551B00C2F7CF /* Assets.xcassets in Resources */,
 				B8401B0B1DCC551B00C2F7CF /* Main.storyboard in Resources */,
@@ -270,14 +559,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4CDD407D38A15C0310EA5FEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntelligentAgricultureUITests/Pods-IntelligentAgricultureUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EEA14F22655264BCE43C44F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntelligentAgricultureUITests/Pods-IntelligentAgricultureUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		651C22B3EF7551137E158D11 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntelligentAgricultureTests/Pods-IntelligentAgricultureTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DB7A1F3D7F992EF22001C08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntelligentAgriculture/Pods-IntelligentAgriculture-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80BB3F6D86CD0EDD934B4358 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8CBC41FE74FB209DA391541C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A920950893C5537ECA4582BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntelligentAgricultureTests/Pods-IntelligentAgricultureTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACF8FC18A53ADB7D96BAA678 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C980EF8797D7A0F6F23AAB4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntelligentAgriculture/Pods-IntelligentAgriculture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B8401AF91DCC551B00C2F7CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8401B5A1DCC668B00C2F7CF /* UIView+Size.m in Sources */,
+				B8401B5E1DCC68D100C2F7CF /* GXNConst.m in Sources */,
+				B8401B611DCC6B2200C2F7CF /* GXNToolbarButton.m in Sources */,
+				B8401B501DCC5EFA00C2F7CF /* GXNRootNavigationController.m in Sources */,
+				B8401B671DCC77D200C2F7CF /* GXNRealTimeDataViewController.m in Sources */,
+				B8401B4B1DCC5C0900C2F7CF /* GXNLoginViewController.m in Sources */,
 				B8401B081DCC551B00C2F7CF /* ViewController.m in Sources */,
+				B85AA1831DCC8678004F3707 /* NSString+MD5.m in Sources */,
 				B8401B051DCC551B00C2F7CF /* AppDelegate.m in Sources */,
+				B8401B6A1DCC801300C2F7CF /* GXNLoginApi.m in Sources */,
 				B8401B021DCC551B00C2F7CF /* main.m in Sources */,
+				B8401B561DCC631400C2F7CF /* GXNMainViewController.m in Sources */,
+				B8401B641DCC77C300C2F7CF /* GXNDeviceControllViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,9 +859,12 @@
 		};
 		B8401B2B1DCC551B00C2F7CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFE12979D71DA20A23A2DD46 /* Pods-IntelligentAgriculture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G9X9L663Q9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/YF/Desktop/Project/gxn_InteilligentAgriculture/guoxn_IntelligentAgriculture/IntelligentAgriculture/IntelligentAgriculture/IntelligentAgriculture.pch;
 				INFOPLIST_FILE = IntelligentAgriculture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GuoXN.IntelligentAgriculture;
@@ -434,9 +874,12 @@
 		};
 		B8401B2C1DCC551B00C2F7CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88AD88A686F140C15BB670F1 /* Pods-IntelligentAgriculture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G9X9L663Q9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/YF/Desktop/Project/gxn_InteilligentAgriculture/guoxn_IntelligentAgriculture/IntelligentAgriculture/IntelligentAgriculture/IntelligentAgriculture.pch;
 				INFOPLIST_FILE = IntelligentAgriculture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GuoXN.IntelligentAgriculture;
@@ -446,6 +889,7 @@
 		};
 		B8401B2E1DCC551B00C2F7CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E2DC288C0E7984536EA6ADE /* Pods-IntelligentAgricultureTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = IntelligentAgricultureTests/Info.plist;
@@ -458,6 +902,7 @@
 		};
 		B8401B2F1DCC551B00C2F7CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4329E4A979E3A8EE0BC65369 /* Pods-IntelligentAgricultureTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = IntelligentAgricultureTests/Info.plist;
@@ -470,6 +915,7 @@
 		};
 		B8401B311DCC551B00C2F7CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAC413D3FF04BF9FA37CE939 /* Pods-IntelligentAgricultureUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = IntelligentAgricultureUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -481,6 +927,7 @@
 		};
 		B8401B321DCC551B00C2F7CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8442A1D78A582EB6D672102B /* Pods-IntelligentAgricultureUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = IntelligentAgricultureUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -509,6 +956,7 @@
 				B8401B2C1DCC551B00C2F7CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8401B2D1DCC551B00C2F7CF /* Build configuration list for PBXNativeTarget "IntelligentAgricultureTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +965,7 @@
 				B8401B2F1DCC551B00C2F7CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8401B301DCC551B00C2F7CF /* Build configuration list for PBXNativeTarget "IntelligentAgricultureUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +974,7 @@
 				B8401B321DCC551B00C2F7CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

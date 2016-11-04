@@ -1,0 +1,42 @@
+//
+//  IntelligentAgriculture.pch
+//  IntelligentAgriculture
+//
+//  Created by YangFan on 16/11/4.
+//  Copyright © 2016年 YangFan. All rights reserved.
+//
+
+#ifndef IntelligentAgriculture_pch
+#define IntelligentAgriculture_pch
+
+
+#import "UIView+Size.h"
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "GXNConst.h"
+#import <MJRefresh/MJRefresh.h>
+#import <YYModel/YYModel.h>
+#import "YTKNetwork.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+#import "NSString+MD5.h"
+
+
+#define yfWidth [UIScreen mainScreen].bounds.size.width
+
+#define yfHeight [UIScreen mainScreen].bounds.size.height
+
+#define iPhone6P (yfHeight == 736)
+#define iPhone6   (yfHeight == 667)
+#define iPhone5   (yfHeight == 568)
+#define iPhone4   (yfHeight == 480)
+
+#ifdef DEBUG
+#define YFLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define YFLog(...)
+
+#endif
+#endif /* IntelligentAgriculture_pch */
